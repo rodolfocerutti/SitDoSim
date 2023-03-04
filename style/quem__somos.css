@@ -1,0 +1,33 @@
+.quem__somos__principal{
+    box-sizing: border-box;
+    background-image: url(../assets/formatura.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 840px;
+}
+
+.quem__somos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.quem__somos__titulo{
+    margin-top: 3rem;
+    font-size: 60px;
+    color: var(--cor-azul-medio);
+    font-weight: 700;
+}
+
+.quem__somos__texto{
+    font-size: 50px;
+    color: var(--cor-branca);
+    font-weight: 700;
+}
+
+.imagem__50__anos{
+    position: absolute;
+    margin: 25rem 0 2rem 2rem;
+}

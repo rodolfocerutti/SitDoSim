@@ -1,0 +1,45 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--cor-branca);
+    height: 6rem; 
+}
+
+.cabecalho__links{
+   display: flex;
+   gap: 50px;
+   color: var(--cor-preta);
+   text-transform: uppercase;
+}
+
+.cabecalho__links > a:hover{
+    color: var(--cor-azul-claro);
+    cursor: pointer;
+}
+
+.imagem__sim{
+    width: 10rem;
+}
+
+.cabecalho__botao{
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho__botao__link{
+    background-color: var(--cor-azul-escuro);
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    color: var(--cor-branca);
+}
+
+.cabecalho__botao__link:hover{
+    background-color: var(--cor-azul-claro);
+    color: var(--cor-preta);
+}
+
+.imagem__lupa{
+    fill: var(--cor-preta);
+}
+
